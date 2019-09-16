@@ -22,8 +22,8 @@ public class FaceBook {
 		
 		driver.get("https://www.facebook.com/");
 		
-		driver.findElementByXPath("//input[@id='email']").sendKeys("vediraj@gmail.com");
-		driver.findElementByXPath("//input[@id='pass']").sendKeys("Maths@143");
+		driver.findElementByXPath("//input[@id='email']").sendKeys("username");
+		driver.findElementByXPath("//input[@id='pass']").sendKeys("Password");
 		driver.findElementByXPath("//input[@type='submit']").click();
 		
 		driver.findElementByXPath("(//input[@placeholder='Search'])[1]").sendKeys("TestLeaf",Keys.ENTER);
